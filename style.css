@@ -1,0 +1,236 @@
+/*
+Theme Name: Siseko Theme
+Theme URI: http://sisekoneti.com
+Author: Siseko
+Description: This is my main theme
+Version: 1.0
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END RESET */
+
+body{
+	background:silver;
+	font-size:14px;
+	font-family: arial;
+	line-height:1.6em;
+	color:#666;
+}
+
+p{
+	margin:10px 0;
+}
+
+a{
+	color:#666;
+	text-decoration: none;
+}
+
+ul,ol{
+	padding:10px 0 10px 10px;
+	list-style: square;
+}
+
+ul li,ol li{
+	line-height:1.8em;
+	color:#000;
+}
+
+h1{font-size:26px;padding-bottom:8px;}
+h2{font-size:22px;color:#666;padding:8px 0 8px 0;}
+h3{font-size:18px;color:#666;padding:8px 0 8px 0;}
+
+img{margin:15px;}
+
+#container{
+	width: 80%;
+	margin:0 auto;
+	border:#ccc solid 1px;
+	overflow: auto;
+	background:#fff;
+	padding:20px 15px;
+}
+
+header{
+	height:70px;
+}
+
+header h1{
+	padding:15px 10px;
+	float:left;
+	width:400px;
+}
+
+header #search{
+	float:right;
+	width:310px;
+	padding-top:14px;
+	list-style: none !important;
+}
+
+header h1 span{
+	font-size:16px;
+	color:#306fa6;
+}
+
+nav.main ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 2px solid;
+    border-radius: 5px 25px 5px 25px;
+}
+
+nav.main li {
+    float: left;
+}
+
+nav.main li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background color of links on hover */
+nav.main li a:hover {background-color: #555;}
+
+#main{
+	float:left;
+	width:60%;
+	overflow:auto;
+}
+
+#main .post{
+	padding:20px 0 20px 0;
+	border-bottom:1px #ccc dashed;
+	overflow:auto;
+}
+
+#main .post a.more-link{
+	color:#074b77;
+	display: block;
+	margin-top:5px;
+}
+
+.meta{
+	padding:3px 5px;
+	background:#f4f4f4;
+	width:95%;
+}
+
+
+#sidebar{
+	float:right;
+	width:25%;
+	overflow:auto;
+	background:#f4f4f4;
+	padding:10px 15px;
+}
+
+#sidebar{
+	list-style: none !important;
+}
+
+#sidebar ul{
+	padding-left:10px;
+}
+/* Start of the The social media footer*/
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+
+/* End of the The social media footer*/
+
+/* Underline text */
+.example { 
+	border-bottom: 3px solid red;
+}
+
+/* Styling the contact form */
+div#wpcf7-f201-p203-o1{
+	background-color: #fbefde;
+	border: 1px solid #f28f27;
+	padding:20px;
+}
+
+#wpcf7-f201-p203-o1 input[type="text"],
+#wpcf7-f201-p203-o1 input[type="email"],
+#wpcf7-f201-p203-o1 textarea {
+	background:#725f4c;
+	color: #0000FF;/*#FFF;*/
+	font-family:lora, "Open Sans", sans-serif;
+	font-style:italic;   
+}
+
+#wpcf7-f201-p203-o1 input[type="submit"],
+#wpcf7-f201-p203-o1 input[type="button"] {
+	background-color:#725f4c;
+	width:20%;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+/* Removing the default sorting dropdown menu */
+.woocommerce-ordering {
+		display:none;
+}
